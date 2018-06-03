@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/Matlab-Deep-Learning/</loc>
+    <lastmod>2018-06-03T10:06:17.986Z</lastmod>
+    <data>
+        <display>
+        <title>Matlab Deep Learning学习笔记</title>
+        <pubTime>2017-11-18T17:22:40.000Z</pubTime>
+        
+        <tag>Deep Learning</tag>
+         
+        <tag>CNN</tag>
+         
+        <tag>CIFAR10</tag>
+         
+        <tag>Matlab</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/new-hci-lightfield-datasets/</loc>
+    <lastmod>2018-06-03T10:02:42.815Z</lastmod>
+    <data>
+        <display>
+        <title>初试HCI光场数据集</title>
+        <pubTime>2017-04-30T06:22:20.000Z</pubTime>
+        
+        <tag>Light Field</tag>
+         
+        <tag>光场</tag>
+         
+        <tag>计算成像</tag>
+         
+        <tag>点云Point Cloud</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/stereo-vision-overview/</loc>
+    <lastmod>2018-06-03T10:01:02.408Z</lastmod>
+    <data>
+        <display>
+        <title>立体视觉综述：Stereo Vision Overview</title>
+        <pubTime>2018-03-26T07:03:55.000Z</pubTime>
+        
+        <tag>stereo matching</tag>
+         
+        <tag>computer vision</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/lstm/</loc>
+    <lastmod>2018-06-03T09:45:01.809Z</lastmod>
+    <data>
+        <display>
+        <title>理解LSTM网络【译】</title>
+        <pubTime>2017-10-23T13:26:20.000Z</pubTime>
+        
+        <tag>CNN</tag>
+         
+        <tag>LSTM</tag>
+         
+        <tag>RNN</tag>
+         
+         
+           
+             
+              <breadCrumb title="LSTM" url="https://www.vincentqin.tech/categories/LSTM/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/pca/</loc>
+    <lastmod>2018-06-03T09:35:10.150Z</lastmod>
+    <data>
+        <display>
+        <title>降维之PCA主成分分析原理</title>
+        <pubTime>2017-10-02T05:22:25.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>PCA</tag>
+         
+        <tag>LDA</tag>
+         
+        <tag>降维</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://www.vincentqin.tech/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/SIFT-and-SURF/</loc>
+    <lastmod>2018-06-03T09:18:21.755Z</lastmod>
+    <data>
+        <display>
+        <title>SIFT和SURF特性提取总结</title>
+        <pubTime>2017-10-01T02:18:01.000Z</pubTime>
+        
+        <tag>sift</tag>
+         
+        <tag>surf</tag>
+         
+        <tag>特征提取</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/summary-statistical-learning/</loc>
+    <lastmod>2018-06-03T09:10:32.867Z</lastmod>
+    <data>
+        <display>
+        <title>统计学习方法总结</title>
+        <pubTime>2017-09-23T11:47:38.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>统计学习方法</tag>
+         
+        <tag>概率论</tag>
+         
+        <tag>SVM</tag>
+         
+        <tag>过拟合</tag>
+         
+        <tag>朴素贝叶斯</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://www.vincentqin.tech/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/git-notebook/</loc>
+    <lastmod>2018-06-03T08:54:25.370Z</lastmod>
+    <data>
+        <display>
+        <title>Ubuntu上使用Git以及GitHub</title>
+        <pubTime>2017-05-30T14:40:20.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Ubuntu</tag>
+         
+        <tag>GitHub</tag>
+         
+        <tag>Git</tag>
+         
+         
+           
+             
+              <breadCrumb title="Git" url="https://www.vincentqin.tech/categories/Git/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/machine-learning/</loc>
+    <lastmod>2018-06-03T08:50:35.910Z</lastmod>
+    <data>
+        <display>
+        <title>机器学习修炼手册</title>
+        <pubTime>2017-05-07T12:02:56.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>Machine Learning</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://www.vincentqin.tech/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/Linux-commands/</loc>
+    <lastmod>2018-06-03T08:48:21.643Z</lastmod>
+    <data>
+        <display>
+        <title>Linux指令学习笔记</title>
+        <pubTime>2017-05-06T09:04:20.000Z</pubTime>
+        
+        <tag>Linux</tag>
+         
+        <tag>Shell脚本</tag>
+         
+        <tag>makefile</tag>
+         
+         
+           
+             
+              <breadCrumb title="Linux" url="https://www.vincentqin.tech/categories/Linux/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/internship/</loc>
+    <lastmod>2018-06-03T08:33:46.485Z</lastmod>
+    <data>
+        <display>
+        <title>实习季到了，大家又浮躁了起来</title>
+        <pubTime>2017-04-16T12:48:20.000Z</pubTime>
+        
+        <tag>实习</tag>
+         
+        <tag>腾讯基础研究</tag>
+         
+        <tag>阿里巴巴视觉算法</tag>
+         
+        <tag>商汤科技</tag>
+         
+         
+           
+             
+              <breadCrumb title="实习" url="https://www.vincentqin.tech/categories/%E5%AE%9E%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/cv-books/</loc>
+    <lastmod>2018-06-03T08:23:26.061Z</lastmod>
+    <data>
+        <display>
+        <title>CV Related References</title>
+        <pubTime>2018-04-13T02:42:57.000Z</pubTime>
+        
+        <tag>CV</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/journal2JP-USA/</loc>
+    <lastmod>2018-06-03T08:17:55.927Z</lastmod>
+    <data>
+        <display>
+        <title>日本与美国之行</title>
+        <pubTime>2017-03-18T16:15:16.000Z</pubTime>
+        
+        <tag>美国</tag>
+         
+        <tag>日本</tag>
+         
+        <tag>东京大学</tag>
+         
+        <tag>早稻田大学</tag>
+         
+        <tag>法政大学</tag>
+         
+        <tag>京都大学</tag>
+         
+        <tag>秋田大学</tag>
+         
+         
+           
+             
+              <breadCrumb title="游行" url="https://www.vincentqin.tech/categories/%E6%B8%B8%E8%A1%8C/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/build-a-website-using-hexo/</loc>
+    <lastmod>2018-06-03T07:06:11.811Z</lastmod>
+    <data>
+        <display>
+        <title>HEXO建站备忘录</title>
+        <pubTime>2016-08-09T04:37:42.000Z</pubTime>
+        
+        <tag>github</tag>
+         
+        <tag>coding</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>博客</tag>
+         
+         
+           
+             
+              <breadCrumb title="建站" url="https://www.vincentqin.tech/categories/%E5%BB%BA%E7%AB%99/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/AR-applications/</loc>
+    <lastmod>2018-06-03T06:33:31.791Z</lastmod>
+    <data>
+        <display>
+        <title>AR形势与应用</title>
+        <pubTime>2016-08-09T04:37:42.000Z</pubTime>
+        
+        <tag>AR</tag>
+         
+         
+           
+             
+              <breadCrumb title="AR" url="https://www.vincentqin.tech/categories/AR/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/learning-Markdown/</loc>
+    <lastmod>2018-06-03T06:27:54.074Z</lastmod>
+    <data>
+        <display>
+        <title>Markdown 学习</title>
+        <pubTime>2016-08-08T14:10:22.000Z</pubTime>
+        
+        <tag>Markdown</tag>
+         
+        <tag>资料</tag>
+         
+         
+           
+             
+              <breadCrumb title="建站" url="https://www.vincentqin.tech/categories/%E5%BB%BA%E7%AB%99/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/light-field-depth-estimation/</loc>
+    <lastmod>2018-06-01T08:52:36.699Z</lastmod>
+    <data>
+        <display>
+        <title>Light Field Depth Estimation</title>
+        <pubTime>2018-05-16T05:35:54.000Z</pubTime>
+        
+        <tag>depth estimation</tag>
+         
+        <tag>light field</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/issues-Matlab/</loc>
+    <lastmod>2018-06-01T06:08:07.104Z</lastmod>
+    <data>
+        <display>
+        <title>Matlab相关问题汇总</title>
+        <pubTime>2017-01-16T02:43:01.000Z</pubTime>
+        
+        <tag>Matlab</tag>
+         
+         
+           
+             
+              <breadCrumb title="Matlab大法好" url="https://www.vincentqin.tech/categories/Matlab%E5%A4%A7%E6%B3%95%E5%A5%BD/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/stephen-hawking/</loc>
+    <lastmod>2018-05-15T05:38:27.429Z</lastmod>
+    <data>
+        <display>
+        <title>Stephen Hawking</title>
+        <pubTime>2018-03-14T15:43:53.000Z</pubTime>
+        
+        <tag>Stephen Hawking</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/some-useful-tools/</loc>
+    <lastmod>2018-04-21T08:34:33.776Z</lastmod>
+    <data>
+        <display>
+        <title>常用的生产力工具</title>
+        <pubTime>2018-01-06T15:27:38.000Z</pubTime>
+        
+        <tag>Tools</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/lytro-light-field/</loc>
+    <lastmod>2018-04-14T12:14:20.676Z</lastmod>
+    <data>
+        <display>
+        <title>Lytro的光场AR之路：从巅峰到死亡</title>
+        <pubTime>2018-03-23T01:57:02.000Z</pubTime>
+        
+        <tag>Light Field</tag>
+         
+        <tag>光场</tag>
+         
+        <tag>计算成像</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/depth-estimation-using-deeplearning-1/</loc>
+    <lastmod>2018-02-09T13:53:14.624Z</lastmod>
+    <data>
+        <display>
+        <title>深度学习在深度(视差)估计中的应用(1)</title>
+        <pubTime>2017-12-06T15:56:45.000Z</pubTime>
+        
+        <tag>Deep Learning</tag>
+         
+        <tag>depth estimation</tag>
+         
+        <tag>disparity</tag>
+         
+        <tag>DispNet</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/depth-estimation-using-deeplearning-2/</loc>
+    <lastmod>2018-02-09T13:45:13.897Z</lastmod>
+    <data>
+        <display>
+        <title>深度学习在深度(视差)估计中的应用(2)</title>
+        <pubTime>2017-12-10T09:07:19.000Z</pubTime>
+        
+        <tag>Deep Learning</tag>
+         
+        <tag>depth estimation</tag>
+         
+        <tag>disparity</tag>
+         
+        <tag>DispNet</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/LightField-Toolbox/</loc>
+    <lastmod>2018-01-28T14:55:30.000Z</lastmod>
+    <data>
+        <display>
+        <title>Light Field 光场以及MATLAB光场工具包(LightField ToolBox)的使用说明</title>
+        <pubTime>2017-02-16T02:45:54.000Z</pubTime>
+        
+        <tag>Light Field</tag>
+         
+        <tag>Matlab光场工具包</tag>
+         
+        <tag>光场</tag>
+         
+        <tag>计算成像</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/CNN-Architectures/</loc>
+    <lastmod>2017-11-15T08:06:53.245Z</lastmod>
+    <data>
+        <display>
+        <title>CNN框架(CNN Architectures)</title>
+        <pubTime>2017-11-06T16:24:45.000Z</pubTime>
+        
+        <tag>AlexNet</tag>
+         
+        <tag>VGG</tag>
+         
+        <tag>GoogLeNet</tag>
+         
+        <tag>ResNet</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+</urlset>
