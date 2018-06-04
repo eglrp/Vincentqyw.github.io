@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>https://www.vincentqin.tech/posts/light-field-depth-estimation/</loc>
+    <lastmod>2018-06-04T15:02:08.883Z</lastmod>
+    <data>
+        <display>
+        <title>Light Field Depth Estimation</title>
+        <pubTime>2018-05-16T05:35:54.000Z</pubTime>
+        
+        <tag>depth estimation</tag>
+         
+        <tag>light field</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.vincentqin.tech/posts/Matlab-Deep-Learning/</loc>
     <lastmod>2018-06-03T10:06:17.986Z</lastmod>
     <data>
@@ -385,28 +407,6 @@
            
              
               <breadCrumb title="建站" url="https://www.vincentqin.tech/categories/%E5%BB%BA%E7%AB%99/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.vincentqin.tech/posts/light-field-depth-estimation/</loc>
-    <lastmod>2018-06-01T08:52:36.699Z</lastmod>
-    <data>
-        <display>
-        <title>Light Field Depth Estimation</title>
-        <pubTime>2018-05-16T05:35:54.000Z</pubTime>
-        
-        <tag>depth estimation</tag>
-         
-        <tag>light field</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
           
         </display>
     </data>

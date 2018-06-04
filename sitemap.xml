@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.vincentqin.tech/posts/light-field-depth-estimation/</loc>
+    
+    <lastmod>2018-06-04T15:02:08.883Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.vincentqin.tech/posts/Matlab-Deep-Learning/</loc>
     
     <lastmod>2018-06-03T10:06:17.986Z</lastmod>
@@ -117,13 +124,6 @@
     <loc>https://www.vincentqin.tech/posts/learning-Markdown/</loc>
     
     <lastmod>2018-06-03T06:27:54.074Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.vincentqin.tech/posts/light-field-depth-estimation/</loc>
-    
-    <lastmod>2018-06-01T08:52:36.699Z</lastmod>
     
   </url>
   
