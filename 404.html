@@ -142,12 +142,12 @@
 <meta property="og:url" content="https://www.vincentqin.tech/404.html">
 <meta property="og:site_name" content="Vincent Qin">
 <meta property="og:description" content=".article-header {         padding: 0;         padding-top: 26px;         border-left: none;         text-align: center;     }     .article-header:hover {         border-left: none;     }     .art">
-<meta property="og:image" content="https://source.unsplash.com/random/1600x900">
-<meta property="og:updated_time" content="2018-03-24T08:00:38.902Z">
+<meta property="og:image" content="http://oofx6tpf6.bkt.clouddn.com/dora.jpg">
+<meta property="og:updated_time" content="2018-06-05T14:07:17.845Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Vincent Qin">
 <meta name="twitter:description" content=".article-header {         padding: 0;         padding-top: 26px;         border-left: none;         text-align: center;     }     .article-header:hover {         border-left: none;     }     .art">
-<meta name="twitter:image" content="https://source.unsplash.com/random/1600x900">
+<meta name="twitter:image" content="http://oofx6tpf6.bkt.clouddn.com/dora.jpg">
 
 
 
@@ -457,10 +457,12 @@
     }
 </style>
 
-<p><img src="https://source.unsplash.com/random/1600x900" alt=""></p>
-<p><center><font size="5" color="" style="center">404 Not Found! Sorry, the page you are visiting is missing.</font></center><br><blockquote class="blockquote-center"><p>Back to <a href="https://www.vincentqin.tech">Homepage</a>,<a href="https://www.vincentqin.tech/guestbook/">GuestBook</a>.</p>
-</blockquote></p>
+<p><img src="http://oofx6tpf6.bkt.clouddn.com/dora.jpg" alt=""></p>
+<center><font size="5" color="" style="center">404 Not Found! Sorry, the page you are visiting is missing. <br> You may visit this <a href="https://www.vincentqin.tech/posts/LightField-Toolbox/">page</a></font></center>
 
+
+<blockquote class="blockquote-center"><p>Or back to <a href="https://www.vincentqin.tech">Homepage</a>,<a href="https://www.vincentqin.tech/guestbook/">GuestBook</a>.</p>
+</blockquote>
         
       </div>
       
@@ -478,6 +480,22 @@
 
 
           
+
+  
+      
+          <div onclick="showGitalk();" id="gitalk_title" class="gitalk_title">Click Gitalk Comments</div>
+      
+      <div id="gitalk_container" style="display:none;"></div>
+  
+	
+  
+    <div class="comments" id="comments">
+      <div id="hypercomments_widget"></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -879,6 +897,8 @@ show_date_time();
 
 	_hcwp.push({widget:"Bloggerstream", widget_id: 98388, selector:".hc-comment-count", label: "{\%COUNT%\}" });
 
+	
+	_hcwp.push({widget:"Stream", widget_id: 98388, xid: "/404.html"});
 	
 
 	(function() {
