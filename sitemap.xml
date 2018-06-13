@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.vincentqin.tech/posts/build-a-website-using-hexo/</loc>
+    
+    <lastmod>2018-06-13T04:49:13.735Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.vincentqin.tech//404.html</loc>
     
     <lastmod>2018-06-05T14:07:17.845Z</lastmod>
@@ -110,13 +117,6 @@
     <loc>https://www.vincentqin.tech/posts/journal2JP-USA/</loc>
     
     <lastmod>2018-06-03T08:17:55.927Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.vincentqin.tech/posts/build-a-website-using-hexo/</loc>
-    
-    <lastmod>2018-06-03T07:06:11.811Z</lastmod>
     
   </url>
   
