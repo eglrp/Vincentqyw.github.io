@@ -4,6 +4,51 @@
 
     
   <url>
+    <loc>https://www.vincentqin.tech/posts/pca/</loc>
+    <lastmod>2018-06-14T08:52:40.619Z</lastmod>
+    <data>
+        <display>
+        <title>降维之PCA主成分分析原理</title>
+        <pubTime>2017-10-02T05:22:25.000Z</pubTime>
+        
+        <tag>机器学习</tag>
+         
+        <tag>PCA</tag>
+         
+        <tag>LDA</tag>
+         
+        <tag>降维</tag>
+         
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://www.vincentqin.tech/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/stereo-vision-overview/</loc>
+    <lastmod>2018-06-14T08:44:56.132Z</lastmod>
+    <data>
+        <display>
+        <title>立体视觉综述：Stereo Vision Overview</title>
+        <pubTime>2018-03-26T07:03:55.000Z</pubTime>
+        
+        <tag>stereo matching</tag>
+         
+        <tag>computer vision</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.vincentqin.tech/posts/build-a-website-using-hexo/</loc>
     <lastmod>2018-06-13T04:49:13.735Z</lastmod>
     <data>
@@ -102,25 +147,6 @@
 
     
   <url>
-    <loc>https://www.vincentqin.tech/posts/stereo-vision-overview/</loc>
-    <lastmod>2018-06-03T10:01:02.408Z</lastmod>
-    <data>
-        <display>
-        <title>立体视觉综述：Stereo Vision Overview</title>
-        <pubTime>2018-03-26T07:03:55.000Z</pubTime>
-        
-        <tag>stereo matching</tag>
-         
-        <tag>computer vision</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.vincentqin.tech/posts/lstm/</loc>
     <lastmod>2018-06-03T09:45:01.809Z</lastmod>
     <data>
@@ -138,32 +164,6 @@
            
              
               <breadCrumb title="LSTM" url="https://www.vincentqin.tech/categories/LSTM/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.vincentqin.tech/posts/pca/</loc>
-    <lastmod>2018-06-03T09:35:10.150Z</lastmod>
-    <data>
-        <display>
-        <title>降维之PCA主成分分析原理</title>
-        <pubTime>2017-10-02T05:22:25.000Z</pubTime>
-        
-        <tag>机器学习</tag>
-         
-        <tag>PCA</tag>
-         
-        <tag>LDA</tag>
-         
-        <tag>降维</tag>
-         
-         
-           
-             
-              <breadCrumb title="机器学习" url="https://www.vincentqin.tech/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
           
         </display>
     </data>

@@ -141,15 +141,15 @@
 <meta property="og:title" content="降维之PCA主成分分析原理">
 <meta property="og:url" content="https://www.vincentqin.tech/posts/pca/index.html">
 <meta property="og:site_name" content="Vincent Qin">
-<meta property="og:image" content="http://oofx6tpf6.bkt.clouddn.com/smile.jpg">
+<meta property="og:image" content="http://oofx6tpf6.bkt.clouddn.com/pca-cover.jpg">
 <meta property="og:image" content="http://oofx6tpf6.bkt.clouddn.com/projection.png">
 <meta property="og:image" content="http://oofx6tpf6.bkt.clouddn.com/explain.gif">
 <meta property="og:image" content="http://oofx6tpf6.bkt.clouddn.com/centering_1.jpg">
 <meta property="og:image" content="http://oofx6tpf6.bkt.clouddn.com/centering_2.jpg">
-<meta property="og:updated_time" content="2018-06-03T09:35:10.150Z">
+<meta property="og:updated_time" content="2018-06-14T08:52:40.619Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="降维之PCA主成分分析原理">
-<meta name="twitter:image" content="http://oofx6tpf6.bkt.clouddn.com/smile.jpg">
+<meta name="twitter:image" content="http://oofx6tpf6.bkt.clouddn.com/pca-cover.jpg">
 
 
 
@@ -441,8 +441,8 @@
               
                 <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2018-06-03T17:35:10+08:00">
-                2018-06-03
+              <time title="Post modified" itemprop="dateModified" datetime="2018-06-14T16:52:40+08:00">
+                2018-06-14
               </time>
             
           </span>
@@ -520,7 +520,7 @@
       
 
       
-        <p><img src="http://oofx6tpf6.bkt.clouddn.com/smile.jpg" alt=""></p>
+        <p><img src="http://oofx6tpf6.bkt.clouddn.com/pca-cover.jpg" alt=""></p>
 <a id="more"></a>
 <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>在许多领域的研究与应用中，往往需要对反映事物的多个变量进行大量的观测，收集大量数据以便进行分析寻找规律。多变量大样本无疑会为研究和应用提供了丰富的信息，但也在一定程度上增加了数据采集的工作量，更重要的是在多数情况下，许多变量之间可能存在相关性，从而增加了问题分析的复杂性，同时对分析带来不便。如果分别对每个指标进行分析，分析往往是孤立的，而不是综合的。盲目减少指标会损失很多信息，容易产生错误的结论。<br>因此需要找到一个合理的方法，在减少需要分析的指标同时，尽量减少原指标包含信息的损失，以达到对所收集数据进行全面分析的目的。由于各变量间存在一定的相关关系，因此有可能用较少的综合指标分别综合存在于各变量中的各类信息。主成分分析与因子分析就属于这类降维的方法。</p>
 <h2 id="目的"><a href="#目的" class="headerlink" title="目的"></a>目的</h2><p>PCA（Principal Component Analysis）是一种常用的数据分析方法。PCA通过线性变换将原始数据变换为一组各维度线性无关的表示，可用于提取数据的主要特征分量，常用于高维数据的降维。能够对高维数据降维的算法包括：</p>

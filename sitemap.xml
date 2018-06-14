@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.vincentqin.tech/posts/pca/</loc>
+    
+    <lastmod>2018-06-14T08:52:40.619Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.vincentqin.tech/posts/stereo-vision-overview/</loc>
+    
+    <lastmod>2018-06-14T08:44:56.132Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.vincentqin.tech/posts/build-a-website-using-hexo/</loc>
     
     <lastmod>2018-06-13T04:49:13.735Z</lastmod>
@@ -37,23 +51,9 @@
   </url>
   
   <url>
-    <loc>https://www.vincentqin.tech/posts/stereo-vision-overview/</loc>
-    
-    <lastmod>2018-06-03T10:01:02.408Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.vincentqin.tech/posts/lstm/</loc>
     
     <lastmod>2018-06-03T09:45:01.809Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.vincentqin.tech/posts/pca/</loc>
-    
-    <lastmod>2018-06-03T09:35:10.150Z</lastmod>
     
   </url>
   
