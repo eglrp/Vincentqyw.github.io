@@ -488,17 +488,15 @@
 
           
             
-            <!--noindex-->
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/posts/lstm/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count hc-comment-count" data-xid="posts/lstm/" itemprop="commentsCount"></span>
+                  <span class="post-comments-count valine-comment-count" data-xid="/posts/lstm/" itemprop="commentCount"></span>
                 </a>
               </span>
-              <!--/noindex-->
             
           
 
@@ -690,9 +688,7 @@
 	
   
     <div class="comments" id="comments">
-      <div id="hypercomments_widget"></div>
     </div>
-
   
 
 
@@ -1117,25 +1113,12 @@ show_date_time();
 
 
 
-	<script type="text/javascript">
-	_hcwp = window._hcwp || [];
 
-	_hcwp.push({widget:"Bloggerstream", widget_id: 98388, selector:".hc-comment-count", label: "{\%COUNT%\}" });
 
-	
-	_hcwp.push({widget:"Stream", widget_id: 98388, xid: "posts/lstm/"});
-	
 
-	(function() {
-	if("HC_LOAD_INIT" in window)return;
-	HC_LOAD_INIT = true;
-	var lang = ("en" || navigator.language || navigator.systemLanguage || navigator.userLanguage).substr(0, 2).toLowerCase();
-	var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
-	hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/98388/"+lang+"/widget.js";
-	var s = document.getElementsByTagName("script")[0];
-	s.parentNode.insertBefore(hcc, s.nextSibling);
-	})();
-	</script>
+
+
+  
 
 
 
@@ -1147,12 +1130,7 @@ show_date_time();
 
 
 
-
-
-
-
-
-   
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
     <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
     
     <script type="text/javascript">
