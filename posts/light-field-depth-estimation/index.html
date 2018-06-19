@@ -958,6 +958,10 @@ L(x,y,0,0)=L(x+d(x,y)*u,y+d(x,y)*u \tan \theta,u,u \tan \theta).\tag{26}</script
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/posts/news/" rel="next" title="NEWS">
+                <i class="fa fa-chevron-left"></i> NEWS
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
@@ -1059,7 +1063,7 @@ L(x,y,0,0)=L(x+d(x,y)*u,y+d(x,y)*u \tan \theta,u,u \tan \theta).\tag{26}</script
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">25</span>
+                  <span class="site-state-item-count">26</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -1465,6 +1469,29 @@ show_date_time();
 
 
 
+
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+    
+    <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        lang:'en',
+        verify: false,
+        notify: true,
+        appId: 'gW2gPJn72UA5SIcq03J1SD94-gzGzoHsz',
+        appKey: 'qRCCImMfpduRBJN8FRj8pJF4',
+        placeholder: 'Just go go',
+        avatar:'retro',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 

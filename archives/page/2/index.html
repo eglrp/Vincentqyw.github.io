@@ -390,7 +390,7 @@
         
           
         
-        Um..! 25 posts in total. Keep on posting.
+        Um..! 26 posts in total. Keep on posting.
       </span>
 
       
@@ -404,6 +404,43 @@
           <div class="collection-title">
             <h1 class="archive-year" id="archive-year-2017">2017</h1>
           </div>
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/posts/CNN-Architectures/" itemprop="url">
+              
+                <span itemprop="name">CNN框架(CNN Architectures)</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2017-11-07T00:24:45+08:00"
+              content="2017-11-07" >
+          11-07
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
         
         
 
@@ -733,43 +770,6 @@
 
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/posts/journal2JP-USA/" itemprop="url">
-              
-                <span itemprop="name">日本与美国之行</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-03-19T00:15:16+08:00"
-              content="2017-03-19" >
-          03-19
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
     </div>
   </div>
   
@@ -829,7 +829,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">25</span>
+                  <span class="site-state-item-count">26</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -1213,6 +1213,29 @@ show_date_time();
 
 
 
+
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+    
+    <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        lang:'en',
+        verify: false,
+        notify: true,
+        appId: 'gW2gPJn72UA5SIcq03J1SD94-gzGzoHsz',
+        appKey: 'qRCCImMfpduRBJN8FRj8pJF4',
+        placeholder: 'Just go go',
+        avatar:'retro',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 

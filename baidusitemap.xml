@@ -4,6 +4,21 @@
 
     
   <url>
+    <loc>https://www.vincentqin.tech/posts/news/</loc>
+    <lastmod>2018-06-19T12:34:46.043Z</lastmod>
+    <data>
+        <display>
+        <title>NEWS</title>
+        <pubTime>2018-06-19T12:15:27.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.vincentqin.tech/posts/pca/</loc>
     <lastmod>2018-06-14T08:52:40.619Z</lastmod>
     <data>
@@ -551,11 +566,11 @@
         
         <tag>Light Field</tag>
          
-        <tag>Matlab光场工具包</tag>
-         
         <tag>光场</tag>
          
         <tag>计算成像</tag>
+         
+        <tag>Matlab光场工具包</tag>
          
          
            
