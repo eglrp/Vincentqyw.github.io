@@ -4,6 +4,32 @@
 
     
   <url>
+    <loc>https://www.vincentqin.tech/posts/build-a-website-using-hexo/</loc>
+    <lastmod>2018-06-19T17:14:57.180Z</lastmod>
+    <data>
+        <display>
+        <title>HEXO建站备忘录</title>
+        <pubTime>2016-08-09T04:37:42.000Z</pubTime>
+        
+        <tag>github</tag>
+         
+        <tag>coding</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>博客</tag>
+         
+         
+           
+             
+              <breadCrumb title="建站" url="https://www.vincentqin.tech/categories/%E5%BB%BA%E7%AB%99/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.vincentqin.tech/posts/news/</loc>
     <lastmod>2018-06-19T13:47:53.163Z</lastmod>
     <data>
@@ -58,32 +84,6 @@
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.vincentqin.tech/posts/build-a-website-using-hexo/</loc>
-    <lastmod>2018-06-13T04:49:13.735Z</lastmod>
-    <data>
-        <display>
-        <title>HEXO建站备忘录</title>
-        <pubTime>2016-08-09T04:37:42.000Z</pubTime>
-        
-        <tag>github</tag>
-         
-        <tag>coding</tag>
-         
-        <tag>hexo</tag>
-         
-        <tag>博客</tag>
-         
-         
-           
-             
-              <breadCrumb title="建站" url="https://www.vincentqin.tech/categories/%E5%BB%BA%E7%AB%99/"/>
-          
         </display>
     </data>
     </url>

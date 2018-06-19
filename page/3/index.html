@@ -978,8 +978,8 @@
               
                 <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2018-06-13T12:49:13+08:00">
-                2018-06-13
+              <time title="Post modified" itemprop="dateModified" datetime="2018-06-20T01:14:57+08:00">
+                2018-06-20
               </time>
             
           </span>
@@ -1903,6 +1903,13 @@ show_date_time();
         guest_info:guest,
         pageSize:'10' || 10,
     });
+   
+    var infoEle = document.querySelector('#comments .info');
+    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0){
+      infoEle.childNodes.forEach(function(item) {
+        item.parentNode.removeChild(item);
+      });
+    }
   </script>
 
 
