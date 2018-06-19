@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://www.vincentqin.tech/posts/news/</loc>
-    <lastmod>2018-06-19T12:34:46.043Z</lastmod>
+    <lastmod>2018-06-19T12:40:17.902Z</lastmod>
     <data>
         <display>
         <title>NEWS</title>
@@ -26,13 +26,13 @@
         <title>降维之PCA主成分分析原理</title>
         <pubTime>2017-10-02T05:22:25.000Z</pubTime>
         
-        <tag>机器学习</tag>
-         
         <tag>PCA</tag>
          
         <tag>LDA</tag>
          
         <tag>降维</tag>
+         
+        <tag>机器学习</tag>
          
          
            
@@ -71,13 +71,13 @@
         <title>HEXO建站备忘录</title>
         <pubTime>2016-08-09T04:37:42.000Z</pubTime>
         
-        <tag>github</tag>
-         
-        <tag>coding</tag>
-         
         <tag>hexo</tag>
          
         <tag>博客</tag>
+         
+        <tag>github</tag>
+         
+        <tag>coding</tag>
          
          
            
@@ -143,11 +143,11 @@
         <title>初试HCI光场数据集</title>
         <pubTime>2017-04-30T06:22:20.000Z</pubTime>
         
-        <tag>Light Field</tag>
-         
         <tag>光场</tag>
          
         <tag>计算成像</tag>
+         
+        <tag>Light Field</tag>
          
         <tag>点云Point Cloud</tag>
          
@@ -493,11 +493,11 @@
         <title>Lytro的光场AR之路：从巅峰到死亡</title>
         <pubTime>2018-03-23T01:57:02.000Z</pubTime>
         
-        <tag>Light Field</tag>
-         
         <tag>光场</tag>
          
         <tag>计算成像</tag>
+         
+        <tag>Light Field</tag>
          
          
            
@@ -564,13 +564,13 @@
         <title>Light Field 光场以及MATLAB光场工具包(LightField ToolBox)的使用说明</title>
         <pubTime>2017-02-16T02:45:54.000Z</pubTime>
         
-        <tag>Light Field</tag>
+        <tag>Matlab光场工具包</tag>
          
         <tag>光场</tag>
          
         <tag>计算成像</tag>
          
-        <tag>Matlab光场工具包</tag>
+        <tag>Light Field</tag>
          
          
            
