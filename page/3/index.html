@@ -471,15 +471,17 @@
 
           
             
+            <!--noindex-->
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/posts/internship/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/posts/internship/" itemprop="commentCount"></span>
+                  <span class="post-comments-count hc-comment-count" data-xid="posts/internship/" itemprop="commentsCount"></span>
                 </a>
               </span>
+              <!--/noindex-->
             
           
 
@@ -651,15 +653,17 @@
 
           
             
+            <!--noindex-->
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/posts/journal2JP-USA/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/posts/journal2JP-USA/" itemprop="commentCount"></span>
+                  <span class="post-comments-count hc-comment-count" data-xid="posts/journal2JP-USA/" itemprop="commentsCount"></span>
                 </a>
               </span>
+              <!--/noindex-->
             
           
 
@@ -830,15 +834,17 @@
 
           
             
+            <!--noindex-->
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/posts/issues-Matlab/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/posts/issues-Matlab/" itemprop="commentCount"></span>
+                  <span class="post-comments-count hc-comment-count" data-xid="posts/issues-Matlab/" itemprop="commentsCount"></span>
                 </a>
               </span>
+              <!--/noindex-->
             
           
 
@@ -978,7 +984,7 @@
               
                 <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2018-06-20T01:14:57+08:00">
+              <time title="Post modified" itemprop="dateModified" datetime="2018-06-20T01:38:12+08:00">
                 2018-06-20
               </time>
             
@@ -1010,15 +1016,17 @@
 
           
             
+            <!--noindex-->
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/posts/build-a-website-using-hexo/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/posts/build-a-website-using-hexo/" itemprop="commentCount"></span>
+                  <span class="post-comments-count hc-comment-count" data-xid="posts/build-a-website-using-hexo/" itemprop="commentsCount"></span>
                 </a>
               </span>
+              <!--/noindex-->
             
           
 
@@ -1190,15 +1198,17 @@
 
           
             
+            <!--noindex-->
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/posts/AR-applications/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/posts/AR-applications/" itemprop="commentCount"></span>
+                  <span class="post-comments-count hc-comment-count" data-xid="posts/AR-applications/" itemprop="commentsCount"></span>
                 </a>
               </span>
+              <!--/noindex-->
             
           
 
@@ -1370,15 +1380,17 @@
 
           
             
+            <!--noindex-->
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="/posts/learning-Markdown/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/posts/learning-Markdown/" itemprop="commentCount"></span>
+                  <span class="post-comments-count hc-comment-count" data-xid="posts/learning-Markdown/" itemprop="commentsCount"></span>
                 </a>
               </span>
+              <!--/noindex-->
             
           
 
@@ -1865,12 +1877,28 @@ show_date_time();
 
 
 
+	<script type="text/javascript">
+	_hcwp = window._hcwp || [];
+
+	_hcwp.push({widget:"Bloggerstream", widget_id: 98388, selector:".hc-comment-count", label: "{\%COUNT%\}" });
+
+	
+
+	(function() {
+	if("HC_LOAD_INIT" in window)return;
+	HC_LOAD_INIT = true;
+	var lang = ("en" || navigator.language || navigator.systemLanguage || navigator.userLanguage).substr(0, 2).toLowerCase();
+	var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
+	hcc.src = ("https:" == document.location.protocol ? "https" : "http")+"://w.hypercomments.com/widget/hc/98388/"+lang+"/widget.js";
+	var s = document.getElementsByTagName("script")[0];
+	s.parentNode.insertBefore(hcc, s.nextSibling);
+	})();
+	</script>
 
 
 
 
 
-  
 
 
 
@@ -1881,36 +1909,6 @@ show_date_time();
 
 
 
-
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-    
-    <script type="text/javascript">
-    var GUEST = ['nick','mail','link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item=>{
-      return GUEST.indexOf(item)>-1;
-    });
-    new Valine({
-        el: '#comments' ,
-        lang:'en',
-        verify: false,
-        notify: false,
-        appId: 'gW2gPJn72UA5SIcq03J1SD94-gzGzoHsz',
-        appKey: 'qRCCImMfpduRBJN8FRj8pJF4',
-        placeholder: 'Just go go',
-        avatar:'retro',
-        guest_info:guest,
-        pageSize:'10' || 10,
-    });
-   
-    var infoEle = document.querySelector('#comments .info');
-    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0){
-      infoEle.childNodes.forEach(function(item) {
-        item.parentNode.removeChild(item);
-      });
-    }
-  </script>
 
 
 
@@ -1935,6 +1933,8 @@ show_date_time();
         gitalk.render('gitalk_container');
     }
 
+    
+      showGitalk();
     
 
   </script>
@@ -2265,7 +2265,7 @@ show_date_time();
   
 
   
-  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js">
   <script>AV.initialize("RQs4FrsjFMNDD6sbzzHlN3ei-gzGzoHsz", "LQziYhODk8GWxR5yDnx4IT0Q");</script>
   <script>
     function showTime(Counter) {
