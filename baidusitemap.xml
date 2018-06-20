@@ -4,6 +4,21 @@
 
     
   <url>
+    <loc>https://www.vincentqin.tech/posts/news/</loc>
+    <lastmod>2018-06-20T12:01:59.546Z</lastmod>
+    <data>
+        <display>
+        <title>NEWS</title>
+        <pubTime>2018-06-19T12:15:27.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.vincentqin.tech/posts/build-a-website-using-hexo/</loc>
     <lastmod>2018-06-20T06:24:31.221Z</lastmod>
     <data>
@@ -24,21 +39,6 @@
              
               <breadCrumb title="建站" url="https://www.vincentqin.tech/categories/%E5%BB%BA%E7%AB%99/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.vincentqin.tech/posts/news/</loc>
-    <lastmod>2018-06-19T17:43:32.262Z</lastmod>
-    <data>
-        <display>
-        <title>NEWS</title>
-        <pubTime>2018-06-19T12:15:27.000Z</pubTime>
-        
-         
-           
         </display>
     </data>
     </url>
