@@ -218,7 +218,7 @@
 
 
 
-<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"><script src="/assets/js/DPlayer.min.js"></script></head>
+<script src="/assets/js/DPlayer.min.js"></script><link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"></head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
 
@@ -631,7 +631,7 @@ mathjax: true
 <p>然后文章中的写法：</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% dplayer url="https://<span class="strong">*****</span><span class="emphasis">*.mp4" "http://*</span><span class="strong">*****</span>.jpg" "api=https://api.prprpr.me/dplayer/" "id=" "loop=false" %&#125;</div></pre></td></tr></table></figure>
 <p>要使用弹幕，必须有api和id两项。id 的值自己随便取，唯一要求就是前面这点。可以通过<a href="http://tool.oschina.net/encrypt?type=2" target="_blank" rel="external">这里</a>获取id，保证每次都不一样。</p>
-<p>献上<strong>Maddi Jane</strong> 翻唱的<strong>Jessie J</strong>的<strong>Price Tag</strong>。<br><div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"video":{"url":"http://oofx6tpf6.bkt.clouddn.com/Maddi-Jane-Price-Tag.mp4"},"danmaku":{"id":"bbe4286bf164ef6a1497f18a7b42ff944e684b82","api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></p>
+<p>献上<strong>Maddi Jane</strong> 翻唱的<strong>Jessie J</strong>的<strong>Price Tag</strong>。<br><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"video":{"url":"http://oofx6tpf6.bkt.clouddn.com/Maddi-Jane-Price-Tag.mp4"},"danmaku":{"id":"bbe4286bf164ef6a1497f18a7b42ff944e684b82","api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></p>
 <h2 id="同时部署"><a href="#同时部署" class="headerlink" title="同时部署"></a>同时部署</h2><p>接下来主要涉及到以hexo框架搭建博客的版本管理。同时部署其实很简单，仅仅修改<strong>站点配置文件</strong>的<code>_config.yml</code>即可。在最后的deploy底下新增一项：</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attr">repo:</span> </div><div class="line"><span class="attr">github:</span> https://github.com/Your_Github_ID/Github_ID.github.io.git </div><div class="line"><span class="attr">coding:</span> https://git.coding.net/Your_Coding_ID/Your_Repo_Name.coding.me.git</div></pre></td></tr></table></figure>
 <p>以后<code>hexo d</code>时，就会同时部署到github和coding。</p>
