@@ -47,10 +47,6 @@
     
     </summary>
     
-      <category term="资料" scheme="https://www.vincentqin.tech/categories/%E8%B5%84%E6%96%99/"/>
-    
-    
-      <category term="bugs" scheme="https://www.vincentqin.tech/tags/bugs/"/>
     
   </entry>
   
@@ -71,12 +67,6 @@
     
     </summary>
     
-      <category term="资料" scheme="https://www.vincentqin.tech/categories/%E8%B5%84%E6%96%99/"/>
-    
-    
-      <category term="Eigen" scheme="https://www.vincentqin.tech/tags/Eigen/"/>
-    
-      <category term="资料" scheme="https://www.vincentqin.tech/tags/%E8%B5%84%E6%96%99/"/>
     
   </entry>
   
@@ -97,8 +87,6 @@
     
     </summary>
     
-    
-      <category term="AI" scheme="https://www.vincentqin.tech/tags/AI/"/>
     
   </entry>
   
@@ -138,12 +126,6 @@
     
     </summary>
     
-      <category term="计算机视觉" scheme="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-    
-    
-      <category term="depth estimation" scheme="https://www.vincentqin.tech/tags/depth-estimation/"/>
-    
-      <category term="light field" scheme="https://www.vincentqin.tech/tags/light-field/"/>
     
   </entry>
   
@@ -162,8 +144,6 @@
     
     </summary>
     
-    
-      <category term="CV" scheme="https://www.vincentqin.tech/tags/CV/"/>
     
   </entry>
   
@@ -192,10 +172,6 @@
     </summary>
     
     
-      <category term="stereo matching" scheme="https://www.vincentqin.tech/tags/stereo-matching/"/>
-    
-      <category term="computer vision" scheme="https://www.vincentqin.tech/tags/computer-vision/"/>
-    
   </entry>
   
   <entry>
@@ -214,14 +190,6 @@
     
     </summary>
     
-      <category term="计算机视觉" scheme="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-    
-    
-      <category term="光场" scheme="https://www.vincentqin.tech/tags/%E5%85%89%E5%9C%BA/"/>
-    
-      <category term="计算成像" scheme="https://www.vincentqin.tech/tags/%E8%AE%A1%E7%AE%97%E6%88%90%E5%83%8F/"/>
-    
-      <category term="Light Field" scheme="https://www.vincentqin.tech/tags/Light-Field/"/>
     
   </entry>
   
@@ -240,8 +208,6 @@
     
     </summary>
     
-    
-      <category term="Stephen Hawking" scheme="https://www.vincentqin.tech/tags/Stephen-Hawking/"/>
     
   </entry>
   
@@ -262,8 +228,6 @@
     </summary>
     
     
-      <category term="Tools" scheme="https://www.vincentqin.tech/tags/Tools/"/>
-    
   </entry>
   
   <entry>
@@ -282,14 +246,6 @@
     
     </summary>
     
-    
-      <category term="Deep Learning" scheme="https://www.vincentqin.tech/tags/Deep-Learning/"/>
-    
-      <category term="depth estimation" scheme="https://www.vincentqin.tech/tags/depth-estimation/"/>
-    
-      <category term="disparity" scheme="https://www.vincentqin.tech/tags/disparity/"/>
-    
-      <category term="DispNet" scheme="https://www.vincentqin.tech/tags/DispNet/"/>
     
   </entry>
   
@@ -311,14 +267,6 @@
     </summary>
     
     
-      <category term="Deep Learning" scheme="https://www.vincentqin.tech/tags/Deep-Learning/"/>
-    
-      <category term="depth estimation" scheme="https://www.vincentqin.tech/tags/depth-estimation/"/>
-    
-      <category term="disparity" scheme="https://www.vincentqin.tech/tags/disparity/"/>
-    
-      <category term="DispNet" scheme="https://www.vincentqin.tech/tags/DispNet/"/>
-    
   </entry>
   
   <entry>
@@ -337,14 +285,6 @@
     
     </summary>
     
-    
-      <category term="CNN" scheme="https://www.vincentqin.tech/tags/CNN/"/>
-    
-      <category term="CIFAR10" scheme="https://www.vincentqin.tech/tags/CIFAR10/"/>
-    
-      <category term="Deep Learning" scheme="https://www.vincentqin.tech/tags/Deep-Learning/"/>
-    
-      <category term="Matlab" scheme="https://www.vincentqin.tech/tags/Matlab/"/>
     
   </entry>
   
@@ -366,14 +306,6 @@
     </summary>
     
     
-      <category term="AlexNet" scheme="https://www.vincentqin.tech/tags/AlexNet/"/>
-    
-      <category term="VGG" scheme="https://www.vincentqin.tech/tags/VGG/"/>
-    
-      <category term="GoogLeNet" scheme="https://www.vincentqin.tech/tags/GoogLeNet/"/>
-    
-      <category term="ResNet" scheme="https://www.vincentqin.tech/tags/ResNet/"/>
-    
   </entry>
   
   <entry>
@@ -392,14 +324,6 @@
     
     </summary>
     
-      <category term="LSTM" scheme="https://www.vincentqin.tech/categories/LSTM/"/>
-    
-    
-      <category term="CNN" scheme="https://www.vincentqin.tech/tags/CNN/"/>
-    
-      <category term="LSTM" scheme="https://www.vincentqin.tech/tags/LSTM/"/>
-    
-      <category term="RNN" scheme="https://www.vincentqin.tech/tags/RNN/"/>
     
   </entry>
   
@@ -418,16 +342,6 @@
     
     </summary>
     
-      <category term="机器学习" scheme="https://www.vincentqin.tech/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="机器学习" scheme="https://www.vincentqin.tech/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-      <category term="PCA" scheme="https://www.vincentqin.tech/tags/PCA/"/>
-    
-      <category term="LDA" scheme="https://www.vincentqin.tech/tags/LDA/"/>
-    
-      <category term="降维" scheme="https://www.vincentqin.tech/tags/%E9%99%8D%E7%BB%B4/"/>
     
   </entry>
   
@@ -449,14 +363,6 @@
     
     </summary>
     
-      <category term="计算机视觉" scheme="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-    
-    
-      <category term="sift" scheme="https://www.vincentqin.tech/tags/sift/"/>
-    
-      <category term="surf" scheme="https://www.vincentqin.tech/tags/surf/"/>
-    
-      <category term="特征提取" scheme="https://www.vincentqin.tech/tags/%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/"/>
     
   </entry>
   
@@ -476,20 +382,6 @@
     
     </summary>
     
-      <category term="机器学习" scheme="https://www.vincentqin.tech/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="机器学习" scheme="https://www.vincentqin.tech/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-      <category term="统计学习方法" scheme="https://www.vincentqin.tech/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0%E6%96%B9%E6%B3%95/"/>
-    
-      <category term="概率论" scheme="https://www.vincentqin.tech/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
-    
-      <category term="SVM" scheme="https://www.vincentqin.tech/tags/SVM/"/>
-    
-      <category term="过拟合" scheme="https://www.vincentqin.tech/tags/%E8%BF%87%E6%8B%9F%E5%90%88/"/>
-    
-      <category term="朴素贝叶斯" scheme="https://www.vincentqin.tech/tags/%E6%9C%B4%E7%B4%A0%E8%B4%9D%E5%8F%B6%E6%96%AF/"/>
     
   </entry>
   
@@ -508,16 +400,6 @@
     
     </summary>
     
-      <category term="Git" scheme="https://www.vincentqin.tech/categories/Git/"/>
-    
-    
-      <category term="Linux" scheme="https://www.vincentqin.tech/tags/Linux/"/>
-    
-      <category term="Ubuntu" scheme="https://www.vincentqin.tech/tags/Ubuntu/"/>
-    
-      <category term="GitHub" scheme="https://www.vincentqin.tech/tags/GitHub/"/>
-    
-      <category term="Git" scheme="https://www.vincentqin.tech/tags/Git/"/>
     
   </entry>
   
@@ -537,12 +419,6 @@
     
     </summary>
     
-      <category term="机器学习" scheme="https://www.vincentqin.tech/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="机器学习" scheme="https://www.vincentqin.tech/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-      <category term="Machine Learning" scheme="https://www.vincentqin.tech/tags/Machine-Learning/"/>
     
   </entry>
   

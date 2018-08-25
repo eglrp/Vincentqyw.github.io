@@ -11,15 +11,8 @@
         <title>资料：Eigen与Matlab语句之对应关系</title>
         <pubTime>2018-08-25T17:59:37.000Z</pubTime>
         
-        <tag>Eigen</tag>
-         
-        <tag>资料</tag>
-         
          
            
-             
-              <breadCrumb title="资料" url="https://www.vincentqin.tech/categories/%E8%B5%84%E6%96%99/"/>
-          
         </display>
     </data>
     </url>
@@ -33,13 +26,8 @@
         <title>资料：那些年我们一起调过的Bug</title>
         <pubTime>2018-08-25T19:24:49.000Z</pubTime>
         
-        <tag>bugs</tag>
-         
          
            
-             
-              <breadCrumb title="资料" url="https://www.vincentqin.tech/categories/%E8%B5%84%E6%96%99/"/>
-          
         </display>
     </data>
     </url>
@@ -53,8 +41,6 @@
         <title>笔记：清华-谷歌人工智能研讨会(Tsinghua-Google AI Symposium)</title>
         <pubTime>2018-06-30T15:25:15.000Z</pubTime>
         
-        <tag>AI</tag>
-         
          
            
         </display>
@@ -70,15 +56,8 @@
         <title>Light Field Depth Estimation</title>
         <pubTime>2018-05-16T05:35:54.000Z</pubTime>
         
-        <tag>depth estimation</tag>
-         
-        <tag>light field</tag>
-         
          
            
-             
-              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-          
         </display>
     </data>
     </url>
@@ -92,19 +71,8 @@
         <title>初试HCI光场数据集</title>
         <pubTime>2017-04-30T06:22:20.000Z</pubTime>
         
-        <tag>光场</tag>
-         
-        <tag>计算成像</tag>
-         
-        <tag>Light Field</tag>
-         
-        <tag>点云Point Cloud</tag>
-         
          
            
-             
-              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-          
         </display>
     </data>
     </url>
@@ -133,19 +101,8 @@
         <title>HEXO建站备忘录</title>
         <pubTime>2016-08-09T04:37:42.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
-        <tag>博客</tag>
-         
-        <tag>github</tag>
-         
-        <tag>coding</tag>
-         
          
            
-             
-              <breadCrumb title="建站" url="https://www.vincentqin.tech/categories/%E5%BB%BA%E7%AB%99/"/>
-          
         </display>
     </data>
     </url>
@@ -159,19 +116,8 @@
         <title>降维之PCA主成分分析原理</title>
         <pubTime>2017-10-02T05:22:25.000Z</pubTime>
         
-        <tag>机器学习</tag>
-         
-        <tag>PCA</tag>
-         
-        <tag>LDA</tag>
-         
-        <tag>降维</tag>
-         
          
            
-             
-              <breadCrumb title="机器学习" url="https://www.vincentqin.tech/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-          
         </display>
     </data>
     </url>
@@ -185,10 +131,6 @@
         <title>立体视觉综述：Stereo Vision Overview</title>
         <pubTime>2018-03-26T07:03:55.000Z</pubTime>
         
-        <tag>stereo matching</tag>
-         
-        <tag>computer vision</tag>
-         
          
            
         </display>
@@ -205,14 +147,6 @@
         <title>Matlab Deep Learning学习笔记</title>
         <pubTime>2017-11-18T17:22:40.000Z</pubTime>
         
-        <tag>CNN</tag>
-         
-        <tag>CIFAR10</tag>
-         
-        <tag>Deep Learning</tag>
-         
-        <tag>Matlab</tag>
-         
          
            
         </display>
@@ -228,17 +162,8 @@
         <title>理解LSTM网络【译】</title>
         <pubTime>2017-10-23T13:26:20.000Z</pubTime>
         
-        <tag>CNN</tag>
-         
-        <tag>LSTM</tag>
-         
-        <tag>RNN</tag>
-         
          
            
-             
-              <breadCrumb title="LSTM" url="https://www.vincentqin.tech/categories/LSTM/"/>
-          
         </display>
     </data>
     </url>
@@ -252,17 +177,8 @@
         <title>SIFT和SURF特性提取总结</title>
         <pubTime>2017-10-01T02:18:01.000Z</pubTime>
         
-        <tag>sift</tag>
-         
-        <tag>surf</tag>
-         
-        <tag>特征提取</tag>
-         
          
            
-             
-              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-          
         </display>
     </data>
     </url>
@@ -276,23 +192,8 @@
         <title>统计学习方法总结</title>
         <pubTime>2017-09-23T11:47:38.000Z</pubTime>
         
-        <tag>机器学习</tag>
-         
-        <tag>统计学习方法</tag>
-         
-        <tag>概率论</tag>
-         
-        <tag>SVM</tag>
-         
-        <tag>过拟合</tag>
-         
-        <tag>朴素贝叶斯</tag>
-         
          
            
-             
-              <breadCrumb title="机器学习" url="https://www.vincentqin.tech/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-          
         </display>
     </data>
     </url>
@@ -306,19 +207,8 @@
         <title>Ubuntu上使用Git以及GitHub</title>
         <pubTime>2017-05-30T14:40:20.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
-        <tag>Ubuntu</tag>
-         
-        <tag>GitHub</tag>
-         
-        <tag>Git</tag>
-         
          
            
-             
-              <breadCrumb title="Git" url="https://www.vincentqin.tech/categories/Git/"/>
-          
         </display>
     </data>
     </url>
@@ -332,15 +222,8 @@
         <title>机器学习修炼手册</title>
         <pubTime>2017-05-07T12:02:56.000Z</pubTime>
         
-        <tag>机器学习</tag>
-         
-        <tag>Machine Learning</tag>
-         
          
            
-             
-              <breadCrumb title="机器学习" url="https://www.vincentqin.tech/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-          
         </display>
     </data>
     </url>
@@ -354,17 +237,8 @@
         <title>Linux指令学习笔记</title>
         <pubTime>2017-05-06T09:04:20.000Z</pubTime>
         
-        <tag>Linux</tag>
-         
-        <tag>Shell脚本</tag>
-         
-        <tag>makefile</tag>
-         
          
            
-             
-              <breadCrumb title="Linux" url="https://www.vincentqin.tech/categories/Linux/"/>
-          
         </display>
     </data>
     </url>
@@ -378,19 +252,8 @@
         <title>实习季到了，大家又浮躁了起来</title>
         <pubTime>2017-04-16T12:48:20.000Z</pubTime>
         
-        <tag>实习</tag>
-         
-        <tag>腾讯基础研究</tag>
-         
-        <tag>阿里巴巴视觉算法</tag>
-         
-        <tag>商汤科技</tag>
-         
          
            
-             
-              <breadCrumb title="实习" url="https://www.vincentqin.tech/categories/%E5%AE%9E%E4%B9%A0/"/>
-          
         </display>
     </data>
     </url>
@@ -404,8 +267,6 @@
         <title>CV Related References</title>
         <pubTime>2018-04-13T02:42:57.000Z</pubTime>
         
-        <tag>CV</tag>
-         
          
            
         </display>
@@ -422,25 +283,8 @@
         <title>日本与美国之行</title>
         <pubTime>2017-03-18T16:15:16.000Z</pubTime>
         
-        <tag>美国</tag>
-         
-        <tag>日本</tag>
-         
-        <tag>东京大学</tag>
-         
-        <tag>早稻田大学</tag>
-         
-        <tag>法政大学</tag>
-         
-        <tag>京都大学</tag>
-         
-        <tag>秋田大学</tag>
-         
          
            
-             
-              <breadCrumb title="游行" url="https://www.vincentqin.tech/categories/%E6%B8%B8%E8%A1%8C/"/>
-          
         </display>
     </data>
     </url>
@@ -454,13 +298,8 @@
         <title>AR形势与应用</title>
         <pubTime>2016-08-09T04:37:42.000Z</pubTime>
         
-        <tag>AR</tag>
-         
          
            
-             
-              <breadCrumb title="AR" url="https://www.vincentqin.tech/categories/AR/"/>
-          
         </display>
     </data>
     </url>
@@ -474,15 +313,8 @@
         <title>Markdown 学习</title>
         <pubTime>2016-08-08T14:10:22.000Z</pubTime>
         
-        <tag>资料</tag>
-         
-        <tag>Markdown</tag>
-         
          
            
-             
-              <breadCrumb title="建站" url="https://www.vincentqin.tech/categories/%E5%BB%BA%E7%AB%99/"/>
-          
         </display>
     </data>
     </url>
@@ -496,13 +328,8 @@
         <title>Matlab相关问题汇总</title>
         <pubTime>2017-01-16T02:43:01.000Z</pubTime>
         
-        <tag>Matlab</tag>
-         
          
            
-             
-              <breadCrumb title="Matlab大法好" url="https://www.vincentqin.tech/categories/Matlab%E5%A4%A7%E6%B3%95%E5%A5%BD/"/>
-          
         </display>
     </data>
     </url>
@@ -517,8 +344,6 @@
         <title>Stephen Hawking</title>
         <pubTime>2018-03-14T15:43:53.000Z</pubTime>
         
-        <tag>Stephen Hawking</tag>
-         
          
            
         </display>
@@ -535,8 +360,6 @@
         <title>常用的生产力工具</title>
         <pubTime>2018-01-06T15:27:38.000Z</pubTime>
         
-        <tag>Tools</tag>
-         
          
            
         </display>
@@ -552,17 +375,8 @@
         <title>Lytro的光场AR之路：从巅峰到死亡</title>
         <pubTime>2018-03-23T01:57:02.000Z</pubTime>
         
-        <tag>光场</tag>
-         
-        <tag>计算成像</tag>
-         
-        <tag>Light Field</tag>
-         
          
            
-             
-              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-          
         </display>
     </data>
     </url>
@@ -577,14 +391,6 @@
         <title>深度学习在深度(视差)估计中的应用(1)</title>
         <pubTime>2017-12-06T15:56:45.000Z</pubTime>
         
-        <tag>Deep Learning</tag>
-         
-        <tag>depth estimation</tag>
-         
-        <tag>disparity</tag>
-         
-        <tag>DispNet</tag>
-         
          
            
         </display>
@@ -600,14 +406,6 @@
         <title>深度学习在深度(视差)估计中的应用(2)</title>
         <pubTime>2017-12-10T09:07:19.000Z</pubTime>
         
-        <tag>Deep Learning</tag>
-         
-        <tag>depth estimation</tag>
-         
-        <tag>disparity</tag>
-         
-        <tag>DispNet</tag>
-         
          
            
         </display>
@@ -623,19 +421,8 @@
         <title>Light Field 光场以及MATLAB光场工具包(LightField ToolBox)的使用说明</title>
         <pubTime>2017-02-16T02:45:54.000Z</pubTime>
         
-        <tag>Matlab光场工具包</tag>
-         
-        <tag>光场</tag>
-         
-        <tag>计算成像</tag>
-         
-        <tag>Light Field</tag>
-         
          
            
-             
-              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-          
         </display>
     </data>
     </url>
@@ -652,14 +439,6 @@
         <title>CNN框架(CNN Architectures)</title>
         <pubTime>2017-11-06T16:24:45.000Z</pubTime>
         
-        <tag>AlexNet</tag>
-         
-        <tag>VGG</tag>
-         
-        <tag>GoogLeNet</tag>
-         
-        <tag>ResNet</tag>
-         
          
            
         </display>
