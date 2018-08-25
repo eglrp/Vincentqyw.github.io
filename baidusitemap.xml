@@ -4,8 +4,25 @@
 
     
   <url>
+    <loc>https://www.vincentqin.tech/posts/tsinghua-google-ai/</loc>
+    <lastmod>2018-08-25T16:04:56.833Z</lastmod>
+    <data>
+        <display>
+        <title>笔记：清华-谷歌人工智能研讨会(Tsinghua-Google AI Symposium)</title>
+        <pubTime>2018-06-30T15:25:15.000Z</pubTime>
+        
+        <tag>AI</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.vincentqin.tech/posts/news/</loc>
-    <lastmod>2018-06-21T07:49:40.197Z</lastmod>
+    <lastmod>2018-08-25T16:04:14.721Z</lastmod>
     <data>
         <display>
         <title>NEWS</title>
@@ -19,8 +36,30 @@
 
     
   <url>
+    <loc>https://www.vincentqin.tech/posts/light-field-depth-estimation/</loc>
+    <lastmod>2018-08-25T16:01:39.205Z</lastmod>
+    <data>
+        <display>
+        <title>Light Field Depth Estimation</title>
+        <pubTime>2018-05-16T05:35:54.000Z</pubTime>
+        
+        <tag>depth estimation</tag>
+         
+        <tag>light field</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.vincentqin.tech/posts/build-a-website-using-hexo/</loc>
-    <lastmod>2018-06-21T07:14:17.594Z</lastmod>
+    <lastmod>2018-06-21T07:14:17.595Z</lastmod>
     <data>
         <display>
         <title>HEXO建站备忘录</title>
@@ -72,7 +111,7 @@
     
   <url>
     <loc>https://www.vincentqin.tech/posts/stereo-vision-overview/</loc>
-    <lastmod>2018-06-14T08:44:56.132Z</lastmod>
+    <lastmod>2018-06-14T08:44:56.133Z</lastmod>
     <data>
         <display>
         <title>立体视觉综述：Stereo Vision Overview</title>
@@ -89,28 +128,6 @@
     </url>
 
     
-    
-  <url>
-    <loc>https://www.vincentqin.tech/posts/light-field-depth-estimation/</loc>
-    <lastmod>2018-06-04T15:02:08.883Z</lastmod>
-    <data>
-        <display>
-        <title>Light Field Depth Estimation</title>
-        <pubTime>2018-05-16T05:35:54.000Z</pubTime>
-        
-        <tag>depth estimation</tag>
-         
-        <tag>light field</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>https://www.vincentqin.tech/posts/Matlab-Deep-Learning/</loc>
@@ -137,7 +154,7 @@
     
   <url>
     <loc>https://www.vincentqin.tech/posts/new-hci-lightfield-datasets/</loc>
-    <lastmod>2018-06-03T10:02:42.815Z</lastmod>
+    <lastmod>2018-06-03T10:02:42.816Z</lastmod>
     <data>
         <display>
         <title>初试HCI光场数据集</title>
@@ -267,7 +284,7 @@
     
   <url>
     <loc>https://www.vincentqin.tech/posts/machine-learning/</loc>
-    <lastmod>2018-06-03T08:50:35.910Z</lastmod>
+    <lastmod>2018-06-03T08:50:35.911Z</lastmod>
     <data>
         <display>
         <title>机器学习修炼手册</title>
@@ -357,7 +374,7 @@
     
   <url>
     <loc>https://www.vincentqin.tech/posts/journal2JP-USA/</loc>
-    <lastmod>2018-06-03T08:17:55.927Z</lastmod>
+    <lastmod>2018-06-03T08:17:55.928Z</lastmod>
     <data>
         <display>
         <title>日本与美国之行</title>
@@ -409,7 +426,7 @@
     
   <url>
     <loc>https://www.vincentqin.tech/posts/learning-Markdown/</loc>
-    <lastmod>2018-06-03T06:27:54.074Z</lastmod>
+    <lastmod>2018-06-03T06:27:54.075Z</lastmod>
     <data>
         <display>
         <title>Markdown 学习</title>
@@ -470,7 +487,7 @@
     
   <url>
     <loc>https://www.vincentqin.tech/posts/some-useful-tools/</loc>
-    <lastmod>2018-04-21T08:34:33.776Z</lastmod>
+    <lastmod>2018-04-21T08:34:33.777Z</lastmod>
     <data>
         <display>
         <title>常用的生产力工具</title>

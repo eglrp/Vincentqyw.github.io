@@ -160,7 +160,7 @@
 <meta property="og:image" content="http://oofx6tpf6.bkt.clouddn.com/epinet-architecture.png">
 <meta property="og:image" content="http://oofx6tpf6.bkt.clouddn.com/viewpoints-effect.png">
 <meta property="og:image" content="http://oofx6tpf6.bkt.clouddn.com/epinet-evaluation.png">
-<meta property="og:updated_time" content="2018-06-04T15:02:08.883Z">
+<meta property="og:updated_time" content="2018-08-25T16:01:39.205Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Light Field Depth Estimation">
 <meta name="twitter:description" content="本文将介绍光场领域进行深度估计的相关研究。In this post, I’ll introduce some depth estimation algorithms using Light field information. Here is some of the code.研究生阶段的研究方向是光场深度信息的恢复。再此做一些总结，以便于让大家了解光场数据处理的一般步骤以及深度估计的相关的知识">
@@ -458,8 +458,8 @@
               
                 <span class="post-meta-item-text">Post modified&#58;</span>
               
-              <time title="Post modified" itemprop="dateModified" datetime="2018-06-04T23:02:08+08:00">
-                2018-06-04
+              <time title="Post modified" itemprop="dateModified" datetime="2018-08-26T00:01:39+08:00">
+                2018-08-26
               </time>
             
           </span>
@@ -542,7 +542,7 @@
 <a id="more"></a>
 <h1 id="什么是光场？"><a href="#什么是光场？" class="headerlink" title="什么是光场？"></a>什么是光场？</h1><p>提到光场，很多人对它的解释模糊不清，在此我对它的概念进行统一表述。它的故事可以追溯到1936年，那是一个春天，Gershun写了一本名为<strong>The Light Field</strong><sup><a href="#fn_1" id="reffn_1">1</a></sup>的鸿篇巨著（感兴趣的同学可以看看那个年代的论文），于是光场的概念就此诞生，但它并没有因此被世人熟知。经过了近六十年的沉寂，1991年Adelson<sup><a href="#fn_2" id="reffn_2">2</a></sup>等一帮帅小伙将光场表示成了如下的7维函数：</p>
 <script type="math/tex; mode=display">
-P(\theta,\phi,\lambda,t,V_x,V_y,V_z). \tag{1}</script><p>其中$(\theta,\phi)$表示球面坐标，$\lambda$表示光线的波长，$t$表示时间，$(V_x,V_y,V_z)$表示观察者的位置。<br>可以想象假如有这样一张由针孔相机拍摄的黑白照片，它表示：我们从<strong>某个时刻</strong>、<strong>单一视角</strong>观察到的<strong>可见光谱</strong>中某个<strong>波长</strong>的光线的平均。也就是说，它记录了通过$P$点的光强分布，光线方向可以由球面坐标$P(\theta,\phi)$或者笛卡尔坐标$P(x,y)$来表示。对于彩色图片而已，我们要添加光线的波长$\lambda$信息即变为$P(\theta,\phi,\lambda)$。按照同样的思路，彩色电影也就是增加了时间维度$t$，因此$P(\theta,\phi,\lambda,t)$。对于彩色全息电影而言，我们可以从任意空间位置$(V_x,V_y,V_z)$进行观看，于是其可以表达为最终的形式$P(\theta,\phi,\lambda,t,V_x,V_y,V_z)$。这个函数又被成为全光函数（Plenoptic Function）。<br>但是以上的七维的全光函数过于复杂，难以记录以及编程实现。所以在实际应用中我们对其进行简化处理。第一个简化是单色光以及时不变。可分别记录3原色以简化掉波长$\lambda$，可以通过记录不同帧以简化$t$，这样全光函数就变成了5D。第二个简化是Levoy<sup><a href="#fn_3" id="reffn_3">3</a></sup>等人（1996年）认为5D光场中还有一定的冗余，可以在自由空间（光线在传播过程中能量保持不变）中简化成4D。</p>
+P(\theta,\phi,\lambda,t,V_x,V_y,V_z). \tag{1}</script><p>其中$(\theta,\phi)$表示球面坐标，$\lambda$表示光线的波长，$t$表示时间，$(V_x,V_y,V_z)$表示观察者的位置。<br>可以想象假如有这样一张由针孔相机拍摄的黑白照片，它表示：我们从<strong>某个时刻</strong>、<strong>单一视角</strong>观察到的<strong>可见光谱</strong>中某个<strong>波长</strong>的光线的平均。也就是说，它记录了通过$P$点的光强分布，光线方向可以由球面坐标$P(\theta,\phi)$或者笛卡尔坐标$P(x,y)$来表示。对于彩色图片而言，我们要添加光线的波长$\lambda$信息即变为$P(\theta,\phi,\lambda)$。按照同样的思路，彩色电影也就是增加了时间维度$t$，因此$P(\theta,\phi,\lambda,t)$。对于彩色全息电影而言，我们可以从任意空间位置$(V_x,V_y,V_z)$进行观看，于是其可以表达为最终的形式$P(\theta,\phi,\lambda,t,V_x,V_y,V_z)$。这个函数又被成为全光函数（Plenoptic Function）。<br>但是以上的七维的全光函数过于复杂，难以记录以及编程实现。所以在实际应用中我们对其进行简化处理。第一个简化是单色光以及时不变。可分别记录3原色以简化掉波长$\lambda$，可以通过记录不同帧以简化$t$，这样全光函数就变成了5D。第二个简化是Levoy<sup><a href="#fn_3" id="reffn_3">3</a></sup>等人（1996年）认为5D光场中还有一定的冗余，可以在自由空间（光线在传播过程中能量保持不变）中简化成4D。</p>
 <h2 id="光场参数化表示"><a href="#光场参数化表示" class="headerlink" title="光场参数化表示"></a>光场参数化表示</h2><p>参数化表示要解决的问题包括：1. 计算高效；2. 光线可控；3. 光线均匀采样。目前比较常用的表示方式是双平面法（$2PP$）<sup><a href="#fn_3" id="reffn_3">3</a></sup>，利用双平面法可以将光场表示为：$L(u,v,s,t)$。其中$(u,v)$为第一个平面，$(s,t)$是第二个平面。那么一条有方向的直线可以表示为连接$uv$以及$st$平面上任意两点确定的线，如下图所示：</p>
 <p><img src="http://oofx6tpf6.bkt.clouddn.com/2pp-v1.png" alt=""></p>
 <p>【注】：Levoy<sup><a href="#fn_3" id="reffn_3">3</a></sup>首先利用双平面法对光场进行表示，光线首先通过$uv$平面，然后再通过$st$平面。但是后来（同年）Gortler<sup><a href="#fn_4" id="reffn_4">4</a></sup>等人将其传播方向反了过来，导致后续研究者对此表述并不一致。与此同时，也有不少文献中也引入了$xy$坐标，例如著名的光场相机的缔造者N.G.博士的毕业论文。通常情况下，这指的是像平面坐标，即指的是由传感器得到的图像中像素的位置坐标。由于后续处理中都是针对图像而言，而对于光学结构以及光线的传播过程并不感兴趣。所以为了方便起见，我们在本文中统一采用Levoy<sup><a href="#fn_3" id="reffn_3">3</a></sup>的方式对<strong>光场图像</strong>进行表示，即$uv$表示角度分辨率，$xy$表示空间分辨率，即$L(u,v,x,y)$。同时在表示<strong>光场</strong>时用$L(u,v,s,t)$。有时候二者不做区分，注意即可。</p>
@@ -1066,7 +1066,7 @@ L(x,y,0,0)=L(x+d(x,y)*u,y+d(x,y)*u \tan \theta,u,u \tan \theta).\tag{26}</script
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">26</span>
+                  <span class="site-state-item-count">27</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -1088,7 +1088,7 @@ L(x,y,0,0)=L(x+d(x,y)*u,y+d(x,y)*u \tan \theta,u,u \tan \theta).\tag{26}</script
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">72</span>
+                  <span class="site-state-item-count">73</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
@@ -1984,7 +1984,7 @@ show_date_time();
   <!--������ƭ-->
   <script type="text/javascript" src="/js/src/breakdown.js"></script>
 
-  <!-- ҳ������С���� -->
+  <!-- ҳ����С���� -->
   <script type="text/javascript" src="/js/src/love.js"></script>
 
   <!-- add gitter on sidebar -->
