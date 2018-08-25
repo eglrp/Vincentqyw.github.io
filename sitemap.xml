@@ -2,9 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.vincentqin.tech/posts/eigen/</loc>
+    
+    <lastmod>2018-08-25T19:37:37.810Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.vincentqin.tech/posts/tips-for-fix-errors/</loc>
+    
+    <lastmod>2018-08-25T19:37:21.579Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.vincentqin.tech/posts/tsinghua-google-ai/</loc>
     
-    <lastmod>2018-08-25T16:04:56.833Z</lastmod>
+    <lastmod>2018-08-25T19:22:05.882Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.vincentqin.tech/posts/light-field-depth-estimation/</loc>
+    
+    <lastmod>2018-08-25T19:16:48.412Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.vincentqin.tech/posts/new-hci-lightfield-datasets/</loc>
+    
+    <lastmod>2018-08-25T19:07:55.202Z</lastmod>
     
   </url>
   
@@ -12,13 +40,6 @@
     <loc>https://www.vincentqin.tech/posts/news/</loc>
     
     <lastmod>2018-08-25T16:04:14.721Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.vincentqin.tech/posts/light-field-depth-estimation/</loc>
-    
-    <lastmod>2018-08-25T16:01:39.205Z</lastmod>
     
   </url>
   
@@ -54,13 +75,6 @@
     <loc>https://www.vincentqin.tech/posts/Matlab-Deep-Learning/</loc>
     
     <lastmod>2018-06-03T10:06:17.986Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.vincentqin.tech/posts/new-hci-lightfield-datasets/</loc>
-    
-    <lastmod>2018-06-03T10:02:42.816Z</lastmod>
     
   </url>
   

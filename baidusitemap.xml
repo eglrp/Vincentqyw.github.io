@@ -4,8 +4,50 @@
 
     
   <url>
+    <loc>https://www.vincentqin.tech/posts/eigen/</loc>
+    <lastmod>2018-08-25T19:37:37.810Z</lastmod>
+    <data>
+        <display>
+        <title>资料：Eigen与Matlab语句之对应关系</title>
+        <pubTime>2018-08-25T17:59:37.000Z</pubTime>
+        
+        <tag>Eigen</tag>
+         
+        <tag>资料</tag>
+         
+         
+           
+             
+              <breadCrumb title="资料" url="https://www.vincentqin.tech/categories/%E8%B5%84%E6%96%99/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/tips-for-fix-errors/</loc>
+    <lastmod>2018-08-25T19:37:21.579Z</lastmod>
+    <data>
+        <display>
+        <title>资料：那些年我们一起调过的Bug</title>
+        <pubTime>2018-08-25T19:24:49.000Z</pubTime>
+        
+        <tag>bugs</tag>
+         
+         
+           
+             
+              <breadCrumb title="资料" url="https://www.vincentqin.tech/categories/%E8%B5%84%E6%96%99/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.vincentqin.tech/posts/tsinghua-google-ai/</loc>
-    <lastmod>2018-08-25T16:04:56.833Z</lastmod>
+    <lastmod>2018-08-25T19:22:05.882Z</lastmod>
     <data>
         <display>
         <title>笔记：清华-谷歌人工智能研讨会(Tsinghua-Google AI Symposium)</title>
@@ -15,6 +57,54 @@
          
          
            
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/light-field-depth-estimation/</loc>
+    <lastmod>2018-08-25T19:16:48.412Z</lastmod>
+    <data>
+        <display>
+        <title>Light Field Depth Estimation</title>
+        <pubTime>2018-05-16T05:35:54.000Z</pubTime>
+        
+        <tag>depth estimation</tag>
+         
+        <tag>light field</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.vincentqin.tech/posts/new-hci-lightfield-datasets/</loc>
+    <lastmod>2018-08-25T19:07:55.202Z</lastmod>
+    <data>
+        <display>
+        <title>初试HCI光场数据集</title>
+        <pubTime>2017-04-30T06:22:20.000Z</pubTime>
+        
+        <tag>光场</tag>
+         
+        <tag>计算成像</tag>
+         
+        <tag>Light Field</tag>
+         
+        <tag>点云Point Cloud</tag>
+         
+         
+           
+             
+              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
+          
         </display>
     </data>
     </url>
@@ -36,28 +126,6 @@
 
     
   <url>
-    <loc>https://www.vincentqin.tech/posts/light-field-depth-estimation/</loc>
-    <lastmod>2018-08-25T16:01:39.205Z</lastmod>
-    <data>
-        <display>
-        <title>Light Field Depth Estimation</title>
-        <pubTime>2018-05-16T05:35:54.000Z</pubTime>
-        
-        <tag>depth estimation</tag>
-         
-        <tag>light field</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://www.vincentqin.tech/posts/build-a-website-using-hexo/</loc>
     <lastmod>2018-06-21T07:14:17.595Z</lastmod>
     <data>
@@ -65,13 +133,13 @@
         <title>HEXO建站备忘录</title>
         <pubTime>2016-08-09T04:37:42.000Z</pubTime>
         
-        <tag>github</tag>
-         
-        <tag>coding</tag>
-         
         <tag>hexo</tag>
          
         <tag>博客</tag>
+         
+        <tag>github</tag>
+         
+        <tag>coding</tag>
          
          
            
@@ -91,13 +159,13 @@
         <title>降维之PCA主成分分析原理</title>
         <pubTime>2017-10-02T05:22:25.000Z</pubTime>
         
+        <tag>机器学习</tag>
+         
         <tag>PCA</tag>
          
         <tag>LDA</tag>
          
         <tag>降维</tag>
-         
-        <tag>机器学习</tag>
          
          
            
@@ -147,32 +215,6 @@
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.vincentqin.tech/posts/new-hci-lightfield-datasets/</loc>
-    <lastmod>2018-06-03T10:02:42.816Z</lastmod>
-    <data>
-        <display>
-        <title>初试HCI光场数据集</title>
-        <pubTime>2017-04-30T06:22:20.000Z</pubTime>
-        
-        <tag>Light Field</tag>
-         
-        <tag>光场</tag>
-         
-        <tag>计算成像</tag>
-         
-        <tag>点云Point Cloud</tag>
-         
-         
-           
-             
-              <breadCrumb title="计算机视觉" url="https://www.vincentqin.tech/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89/"/>
-          
         </display>
     </data>
     </url>
@@ -432,9 +474,9 @@
         <title>Markdown 学习</title>
         <pubTime>2016-08-08T14:10:22.000Z</pubTime>
         
-        <tag>Markdown</tag>
-         
         <tag>资料</tag>
+         
+        <tag>Markdown</tag>
          
          
            
@@ -510,11 +552,11 @@
         <title>Lytro的光场AR之路：从巅峰到死亡</title>
         <pubTime>2018-03-23T01:57:02.000Z</pubTime>
         
-        <tag>Light Field</tag>
-         
         <tag>光场</tag>
          
         <tag>计算成像</tag>
+         
+        <tag>Light Field</tag>
          
          
            
@@ -581,13 +623,13 @@
         <title>Light Field 光场以及MATLAB光场工具包(LightField ToolBox)的使用说明</title>
         <pubTime>2017-02-16T02:45:54.000Z</pubTime>
         
-        <tag>Light Field</tag>
-         
         <tag>Matlab光场工具包</tag>
          
         <tag>光场</tag>
          
         <tag>计算成像</tag>
+         
+        <tag>Light Field</tag>
          
          
            

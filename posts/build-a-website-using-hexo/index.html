@@ -123,7 +123,7 @@
 
 
 
-  <meta name="keywords" content="github,coding,hexo,博客," />
+  <meta name="keywords" content="hexo,博客,github,coding," />
 
 
 
@@ -137,7 +137,7 @@
 
 
 <meta name="description" content="Hexo作为建立Blog利器，为我们没有JS基础的小白们提供了建立专属自己博客的机会！经常使用的语法很简单，我们完全可以在10min分钟之内建立自己的Blog，后期的优化才是最耗费时间的。好了，直接进入正文。">
-<meta name="keywords" content="github,coding,hexo,博客">
+<meta name="keywords" content="hexo,博客,github,coding">
 <meta property="og:type" content="article">
 <meta property="og:title" content="HEXO建站备忘录">
 <meta property="og:url" content="https://www.vincentqin.tech/posts/build-a-website-using-hexo/index.html">
@@ -631,7 +631,7 @@ mathjax: true
 <p>然后文章中的写法：</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% dplayer url="https://<span class="strong">*****</span><span class="emphasis">*.mp4" "http://*</span><span class="strong">*****</span>.jpg" "api=https://api.prprpr.me/dplayer/" "id=" "loop=false" %&#125;</div></pre></td></tr></table></figure>
 <p>要使用弹幕，必须有api和id两项。id 的值自己随便取，唯一要求就是前面这点。可以通过<a href="http://tool.oschina.net/encrypt?type=2" target="_blank" rel="external">这里</a>获取id，保证每次都不一样。</p>
-<p>献上<strong>Maddi Jane</strong> 翻唱的<strong>Jessie J</strong>的<strong>Price Tag</strong>。<br><div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"video":{"url":"http://oofx6tpf6.bkt.clouddn.com/Maddi-Jane-Price-Tag.mp4"},"danmaku":{"id":"bbe4286bf164ef6a1497f18a7b42ff944e684b82","api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></p>
+<p>献上<strong>Maddi Jane</strong> 翻唱的<strong>Jessie J</strong>的<strong>Price Tag</strong>。<br><div id="dplayer1" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer1"),"video":{"url":"http://oofx6tpf6.bkt.clouddn.com/Maddi-Jane-Price-Tag.mp4"},"danmaku":{"id":"bbe4286bf164ef6a1497f18a7b42ff944e684b82","api":"https://api.prprpr.me/dplayer/"}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script></p>
 <h2 id="同时部署"><a href="#同时部署" class="headerlink" title="同时部署"></a>同时部署</h2><p>接下来主要涉及到以hexo框架搭建博客的版本管理。同时部署其实很简单，仅仅修改<strong>站点配置文件</strong>的<code>_config.yml</code>即可。在最后的deploy底下新增一项：</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attr">repo:</span> </div><div class="line"><span class="attr">github:</span> https://github.com/Your_Github_ID/Github_ID.github.io.git </div><div class="line"><span class="attr">coding:</span> https://git.coding.net/Your_Coding_ID/Your_Repo_Name.coding.me.git</div></pre></td></tr></table></figure>
 <p>以后<code>hexo d</code>时，就会同时部署到github和coding。</p>
@@ -715,13 +715,13 @@ mathjax: true
       
         <div class="post-tags">
           
-            <a href="/tags/github/" rel="tag"><i class="fa fa-star"></i> github</a>
-          
-            <a href="/tags/coding/" rel="tag"><i class="fa fa-star"></i> coding</a>
-          
             <a href="/tags/hexo/" rel="tag"><i class="fa fa-star"></i> hexo</a>
           
             <a href="/tags/博客/" rel="tag"><i class="fa fa-star"></i> 博客</a>
+          
+            <a href="/tags/github/" rel="tag"><i class="fa fa-star"></i> github</a>
+          
+            <a href="/tags/coding/" rel="tag"><i class="fa fa-star"></i> coding</a>
           
         </div>
       
@@ -842,7 +842,7 @@ mathjax: true
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">27</span>
+                  <span class="site-state-item-count">29</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -853,7 +853,7 @@ mathjax: true
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">10</span>
+                  <span class="site-state-item-count">11</span>
                   <span class="site-state-item-name">categories</span>
                 </a>
               </div>
@@ -864,7 +864,7 @@ mathjax: true
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">73</span>
+                  <span class="site-state-item-count">75</span>
                   <span class="site-state-item-name">tags</span>
                 </a>
               </div>
