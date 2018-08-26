@@ -123,7 +123,7 @@
 
 
 
-  <meta name="keywords" content="CNN,LSTM,RNN," />
+  <meta name="keywords" content="Author: Vincent Qin" />
 
 
 
@@ -137,7 +137,7 @@
 
 
 <meta name="description" content="本文是我对大神Christopher Olah的Understanding LSTM Networks的译文。">
-<meta name="keywords" content="CNN,LSTM,RNN">
+<meta name="keywords">
 <meta property="og:type" content="article">
 <meta property="og:title" content="理解LSTM网络【译】">
 <meta property="og:url" content="https://www.vincentqin.tech/posts/lstm/index.html">
@@ -463,28 +463,6 @@
           </span>
 
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/LSTM/" itemprop="url" rel="index">
-                    <span itemprop="name">LSTM</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
 
           
             
@@ -621,16 +599,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/CNN/" rel="tag"><i class="fa fa-star"></i> CNN</a>
-          
-            <a href="/tags/LSTM/" rel="tag"><i class="fa fa-star"></i> LSTM</a>
-          
-            <a href="/tags/RNN/" rel="tag"><i class="fa fa-star"></i> RNN</a>
-          
-        </div>
-      
 
       
       
@@ -684,11 +652,13 @@
   
 	
   
-    <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNzQ2OC8xNDAwMA"></div>
-    </div>
-  
 
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
   
 
   
@@ -765,15 +735,6 @@
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">75</span>
-                  <span class="site-state-item-name">tags</span>
-                </a>
-              </div>
             
 
           </nav>
@@ -1120,22 +1081,53 @@ show_date_time();
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
-  
 
 
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://www.vincentqin.tech/css/gitmint-default.css">
+        <script src="https://www.vincentqin.tech/js/src/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+      <style>
+        a.gitment-editor-footer-tip { display: none; }
+        .gitment-container.gitment-footer-container { display: none; }
+      </style>
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'Vincentqyw',
+            repo: 'Gitment',
+            
+            lang: "en" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '31179aa98fb086ba01a75d116fdd2d846cfc9a0d',
+            
+                client_id: '12c4bbcdc09235fdb668'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
 
 
 

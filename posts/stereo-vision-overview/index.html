@@ -123,7 +123,7 @@
 
 
 
-  <meta name="keywords" content="stereo matching,computer vision," />
+  <meta name="keywords" content="Author: Vincent Qin" />
 
 
 
@@ -137,7 +137,7 @@
 
 
 <meta name="description" content="本文主要翻译自Mattoccia的双目视差估计综述，对于刚刚接触立体深度估计方向的小伙伴会有帮助；如果你是专家也可以做一下复习，如有错误请在评论中指出。文中主要介绍以下几个方面的内容：  Introduction to stereo vision Overview of a stereo vision system Algorithms for visual correspondence Com">
-<meta name="keywords" content="stereo matching,computer vision">
+<meta name="keywords">
 <meta property="og:type" content="article">
 <meta property="og:title" content="立体视觉综述：Stereo Vision Overview">
 <meta property="og:url" content="https://www.vincentqin.tech/posts/stereo-vision-overview/index.html">
@@ -1063,14 +1063,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/stereo-matching/" rel="tag"><i class="fa fa-star"></i> stereo matching</a>
-          
-            <a href="/tags/computer-vision/" rel="tag"><i class="fa fa-star"></i> computer vision</a>
-          
-        </div>
-      
 
       
       
@@ -1124,11 +1116,13 @@
   
 	
   
-    <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNzQ2OC8xNDAwMA"></div>
-    </div>
-  
 
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
   
 
   
@@ -1205,15 +1199,6 @@
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">75</span>
-                  <span class="site-state-item-name">tags</span>
-                </a>
-              </div>
             
 
           </nav>
@@ -1560,22 +1545,53 @@ show_date_time();
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
-  
 
 
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://www.vincentqin.tech/css/gitmint-default.css">
+        <script src="https://www.vincentqin.tech/js/src/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+      <style>
+        a.gitment-editor-footer-tip { display: none; }
+        .gitment-container.gitment-footer-container { display: none; }
+      </style>
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'Vincentqyw',
+            repo: 'Gitment',
+            
+            lang: "en" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '31179aa98fb086ba01a75d116fdd2d846cfc9a0d',
+            
+                client_id: '12c4bbcdc09235fdb668'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
 
 
 

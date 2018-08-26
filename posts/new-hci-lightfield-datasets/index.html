@@ -123,7 +123,7 @@
 
 
 
-  <meta name="keywords" content="Light Field,光场,计算成像,点云Point Cloud," />
+  <meta name="keywords" content="Author: Vincent Qin" />
 
 
 
@@ -137,7 +137,7 @@
 
 
 <meta name="description" content="好的数据集是做出漂亮实验的必要条件.声明：一切理解都是本人观点，如有疑问，还望在评论中留言。如需转载请与本人联系，谢谢合作! 邮箱：点我">
-<meta name="keywords" content="Light Field,光场,计算成像,点云Point Cloud">
+<meta name="keywords">
 <meta property="og:type" content="article">
 <meta property="og:title" content="初试HCI光场数据集">
 <meta property="og:url" content="https://www.vincentqin.tech/posts/new-hci-lightfield-datasets/index.html">
@@ -451,28 +451,6 @@
           </span>
 
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/计算机视觉/" itemprop="url" rel="index">
-                    <span itemprop="name">计算机视觉</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
 
           
             
@@ -730,18 +708,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/Light-Field/" rel="tag"><i class="fa fa-star"></i> Light Field</a>
-          
-            <a href="/tags/光场/" rel="tag"><i class="fa fa-star"></i> 光场</a>
-          
-            <a href="/tags/计算成像/" rel="tag"><i class="fa fa-star"></i> 计算成像</a>
-          
-            <a href="/tags/点云Point-Cloud/" rel="tag"><i class="fa fa-star"></i> 点云Point Cloud</a>
-          
-        </div>
-      
 
       
       
@@ -795,11 +761,13 @@
   
 	
   
-    <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNzQ2OC8xNDAwMA"></div>
-    </div>
-  
 
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
   
 
   
@@ -876,15 +844,6 @@
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">75</span>
-                  <span class="site-state-item-name">tags</span>
-                </a>
-              </div>
             
 
           </nav>
@@ -1231,22 +1190,53 @@ show_date_time();
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
-  
 
 
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://www.vincentqin.tech/css/gitmint-default.css">
+        <script src="https://www.vincentqin.tech/js/src/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+      <style>
+        a.gitment-editor-footer-tip { display: none; }
+        .gitment-container.gitment-footer-container { display: none; }
+      </style>
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'Vincentqyw',
+            repo: 'Gitment',
+            
+            lang: "en" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '31179aa98fb086ba01a75d116fdd2d846cfc9a0d',
+            
+                client_id: '12c4bbcdc09235fdb668'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
 
 
 

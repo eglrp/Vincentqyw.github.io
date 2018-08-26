@@ -123,7 +123,7 @@
 
 
 
-  <meta name="keywords" content="Deep Learning,depth estimation,disparity,DispNet," />
+  <meta name="keywords" content="Author: Vincent Qin" />
 
 
 
@@ -137,7 +137,7 @@
 
 
 <meta name="description" content="最近一段时间一直痴迷于如何将深度学习用于深度估计，看了不少关于该方面的介绍，再次做一个简单的总结。虽说深度学习和深度估计都有深度二字，但是其意义确是完全不一样。一个是deep一个是depth，前者表示网络层纵向的延伸度，后者表示三维场景中物体距离摄像头的距离。这两个差异如此之大的名词是如何结合在一起的呢？且听我慢慢解释。">
-<meta name="keywords" content="Deep Learning,depth estimation,disparity,DispNet">
+<meta name="keywords">
 <meta property="og:type" content="article">
 <meta property="og:title" content="深度学习在深度(视差)估计中的应用(2)">
 <meta property="og:url" content="https://www.vincentqin.tech/posts/depth-estimation-using-deeplearning-2/index.html">
@@ -619,18 +619,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/Deep-Learning/" rel="tag"><i class="fa fa-star"></i> Deep Learning</a>
-          
-            <a href="/tags/depth-estimation/" rel="tag"><i class="fa fa-star"></i> depth estimation</a>
-          
-            <a href="/tags/disparity/" rel="tag"><i class="fa fa-star"></i> disparity</a>
-          
-            <a href="/tags/DispNet/" rel="tag"><i class="fa fa-star"></i> DispNet</a>
-          
-        </div>
-      
 
       
       
@@ -684,11 +672,13 @@
   
 	
   
-    <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNzQ2OC8xNDAwMA"></div>
-    </div>
-  
 
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
   
 
   
@@ -765,15 +755,6 @@
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">75</span>
-                  <span class="site-state-item-name">tags</span>
-                </a>
-              </div>
             
 
           </nav>
@@ -1120,22 +1101,53 @@ show_date_time();
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
-  
 
 
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://www.vincentqin.tech/css/gitmint-default.css">
+        <script src="https://www.vincentqin.tech/js/src/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+      <style>
+        a.gitment-editor-footer-tip { display: none; }
+        .gitment-container.gitment-footer-container { display: none; }
+      </style>
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'Vincentqyw',
+            repo: 'Gitment',
+            
+            lang: "en" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '31179aa98fb086ba01a75d116fdd2d846cfc9a0d',
+            
+                client_id: '12c4bbcdc09235fdb668'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
 
 
 

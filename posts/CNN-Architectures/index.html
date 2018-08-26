@@ -123,7 +123,7 @@
 
 
 
-  <meta name="keywords" content="AlexNet,VGG,GoogLeNet,ResNet," />
+  <meta name="keywords" content="Author: Vincent Qin" />
 
 
 
@@ -137,7 +137,7 @@
 
 
 <meta name="description" content="本文来自于CS231N（2017 Spring），将介绍几种较为常见的CNN结构。以下网络均是ImageNet比赛的冠军之作，我们将从网络结构，参数规模，运算量等来描述各个网络的特点。">
-<meta name="keywords" content="AlexNet,VGG,GoogLeNet,ResNet">
+<meta name="keywords">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CNN框架(CNN Architectures)">
 <meta property="og:url" content="https://www.vincentqin.tech/posts/CNN-Architectures/index.html">
@@ -776,18 +776,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/AlexNet/" rel="tag"><i class="fa fa-star"></i> AlexNet</a>
-          
-            <a href="/tags/VGG/" rel="tag"><i class="fa fa-star"></i> VGG</a>
-          
-            <a href="/tags/GoogLeNet/" rel="tag"><i class="fa fa-star"></i> GoogLeNet</a>
-          
-            <a href="/tags/ResNet/" rel="tag"><i class="fa fa-star"></i> ResNet</a>
-          
-        </div>
-      
 
       
       
@@ -841,11 +829,13 @@
   
 	
   
-    <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNzQ2OC8xNDAwMA"></div>
-    </div>
-  
 
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
   
 
   
@@ -922,15 +912,6 @@
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">75</span>
-                  <span class="site-state-item-name">tags</span>
-                </a>
-              </div>
             
 
           </nav>
@@ -1277,22 +1258,53 @@ show_date_time();
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
-  
 
 
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://www.vincentqin.tech/css/gitmint-default.css">
+        <script src="https://www.vincentqin.tech/js/src/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+      <style>
+        a.gitment-editor-footer-tip { display: none; }
+        .gitment-container.gitment-footer-container { display: none; }
+      </style>
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'Vincentqyw',
+            repo: 'Gitment',
+            
+            lang: "en" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '31179aa98fb086ba01a75d116fdd2d846cfc9a0d',
+            
+                client_id: '12c4bbcdc09235fdb668'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
 
 
 

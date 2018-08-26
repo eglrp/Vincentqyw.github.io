@@ -123,7 +123,7 @@
 
 
 
-  <meta name="keywords" content="美国,日本,东京大学,早稻田大学,法政大学,京都大学,秋田大学," />
+  <meta name="keywords" content="Author: Vincent Qin" />
 
 
 
@@ -136,7 +136,7 @@
 
 
 
-<meta name="keywords" content="美国,日本,东京大学,早稻田大学,法政大学,京都大学,秋田大学">
+<meta name="keywords">
 <meta property="og:type" content="article">
 <meta property="og:title" content="日本与美国之行">
 <meta property="og:url" content="https://www.vincentqin.tech/posts/journal2JP-USA/index.html">
@@ -470,28 +470,6 @@
           </span>
 
           
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/游行/" itemprop="url" rel="index">
-                    <span itemprop="name">游行</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
 
           
             
@@ -649,24 +627,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/美国/" rel="tag"><i class="fa fa-star"></i> 美国</a>
-          
-            <a href="/tags/日本/" rel="tag"><i class="fa fa-star"></i> 日本</a>
-          
-            <a href="/tags/东京大学/" rel="tag"><i class="fa fa-star"></i> 东京大学</a>
-          
-            <a href="/tags/早稻田大学/" rel="tag"><i class="fa fa-star"></i> 早稻田大学</a>
-          
-            <a href="/tags/法政大学/" rel="tag"><i class="fa fa-star"></i> 法政大学</a>
-          
-            <a href="/tags/京都大学/" rel="tag"><i class="fa fa-star"></i> 京都大学</a>
-          
-            <a href="/tags/秋田大学/" rel="tag"><i class="fa fa-star"></i> 秋田大学</a>
-          
-        </div>
-      
 
       
       
@@ -720,11 +680,13 @@
   
 	
   
-    <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNzQ2OC8xNDAwMA"></div>
-    </div>
-  
 
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
   
 
   
@@ -792,15 +754,6 @@
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">75</span>
-                  <span class="site-state-item-name">tags</span>
-                </a>
-              </div>
             
 
           </nav>
@@ -1131,22 +1084,53 @@ show_date_time();
 
 
   
-    <script type="text/javascript">
-      (function(d, s) {
-        var j, e = d.getElementsByTagName(s)[0];
-        if (typeof LivereTower === 'function') { return; }
-        j = d.createElement(s);
-        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-        j.async = true;
-        e.parentNode.insertBefore(j, e);
-      })(document, 'script');
-    </script>
-  
 
 
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://www.vincentqin.tech/css/gitmint-default.css">
+        <script src="https://www.vincentqin.tech/js/src/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+      <style>
+        a.gitment-editor-footer-tip { display: none; }
+        .gitment-container.gitment-footer-container { display: none; }
+      </style>
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname, 
+            owner: 'Vincentqyw',
+            repo: 'Gitment',
+            
+            lang: "en" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '31179aa98fb086ba01a75d116fdd2d846cfc9a0d',
+            
+                client_id: '12c4bbcdc09235fdb668'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
 
 
 
