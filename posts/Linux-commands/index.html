@@ -771,13 +771,11 @@ file.txt</code><br>同样可以用二进制设置权限 <code>chmod 444 file.txt
   
 	
   
-
-  
     <div class="comments" id="comments">
-      
-        <div id="gitment-container"></div>
-      
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNzQ2OC8xNDAwMA"></div>
     </div>
+  
+
   
 
   
@@ -1209,53 +1207,21 @@ show_date_time();
 
 
   
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
 
 
 
 
-
-
-
-<!-- LOCAL: You can save these files to your site and update links -->
-    
-        
-        <link rel="stylesheet" href="https://www.vincentqin.tech/css/gitmint-default.css">
-        <script src="https://www.vincentqin.tech/js/src/gitmint.browser.js"></script>
-    
-<!-- END LOCAL -->
-
-    
-      <style>
-        a.gitment-editor-footer-tip { display: none; }
-        .gitment-container.gitment-footer-container { display: none; }
-      </style>
-    
-
-    
-      <script type="text/javascript">
-      function renderGitment(){
-        var gitment = new Gitmint({
-            id: window.location.pathname, 
-            owner: 'Vincentqyw',
-            repo: 'Gitment',
-            
-            lang: "en" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
-            
-            oauth: {
-            
-            
-                client_secret: '31179aa98fb086ba01a75d116fdd2d846cfc9a0d',
-            
-                client_id: '12c4bbcdc09235fdb668'
-            }});
-        gitment.render('gitment-container');
-      }
-
-      
-      renderGitment();
-      
-      </script>
-    
 
 
 
